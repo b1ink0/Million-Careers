@@ -1,0 +1,97 @@
+:root {
+  --gray: #5c5c5c;
+  --gray-1: #c4c4c447;
+  --black: #000000;
+}
+/* First Section Styles */
+.section-1 {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.section-1 .contact-container {
+  margin-top: 100px;
+}
+
+.section-1 h1 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 72px;
+}
+.section-1 p {
+  margin-top: 100px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 230.28%;
+  color: var(--gray);
+}
+
+.section-1 form {
+  width: 800px;
+}
+.section-1 form label {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.section-1 form input,
+.section-1 form textarea {
+  background: var(--gray-1);
+}
+.section-1 form textarea {
+  height: 250px;
+}
+
+.section-1 form button {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  background-color: var(--black);
+}
+
+.sub-form {
+  width: 370px;
+}
+
+.section-1 h3 {
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+}
+.section-1 p {
+  width: 100%;
+  margin-top: 0px !important;
+}
+
+.sub-contact {
+  width: 100%;
+}
+
+.circle-3 {
+  width: 50vw !important;
+  height: 50vw !important;
+  left: -30vw !important;
+  top: 50vw !important;
+}
+
+@media (min-width: 1500px) {
+  .circle-3 {
+    width: 50vw !important;
+    height: 50vw !important;
+    left: -30vw !important;
+    top: 30vw !important;
+  }
+}
+
+@media (min-width: 1900px) {
+  .circle-3 {
+    display: none;
+  }
+}
