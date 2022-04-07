@@ -1,0 +1,40 @@
+:root {
+  --dark-blue: #0a2640;
+  --text-gray: #777777;
+}
+.circles {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+.circles .circle-1,
+.circle-2 {
+  position: absolute;
+  width: 100vw;
+  height: 100vw;
+  left: 55vw;
+  top: -70vw;
+  background: #fffdf3;
+}
+.circles .circle-2 {
+  left: -20vw;
+  top: -80vw;
+  background: #fff7f7;
+}
+/* Navbar Styles */
+.nav-ul li a {
+  color: var(--dark-blue);
+}
+/* First Section Styles  */
+
+.row-1 p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--text-gray);
+}
