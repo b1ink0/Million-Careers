@@ -21,13 +21,14 @@
     <link rel="stylesheet" href="css/blog.css" />
     <title>Blog</title>
   </head>
+
   <body>
     <div class="circles">
       <div class="circle-1 rounded-circle"></div>
       <div class="circle-2 rounded-circle"></div>
     </div>
     <nav class="navbar navbar-expand-sm mt-4">
-      <div class="container">
+      <div class="container d-flex align-items-center justify-content-center">
         <a href="#" class="navbar-brand">
           <img
             src="./assets/million 1.png"
@@ -35,18 +36,31 @@
             class="mx-auto d-block"
           />
         </a>
-        <div class="collapse navbar-collapse">
-          <ul class="nav-ul navbar-nav ms-auto">
-            <li class="nav-item m-2">
+        <button
+          class="navbar-toggler position-absolute"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo2"
+          aria-controls="navbarTogglerDemo2"
+          aria-expanded="true"
+          aria-label="Toggle navigation"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+        <div class="navbar-collapse collapse show" id="navbarTogglerDemo2">
+          <ul
+            class="navbar-nav ms-auto mb-2 mb-xl-0 d-flex align-items-center justify-content-center"
+          >
+            <li class="nav-item">
               <a href="index.html" class="nav-link">Services</a>
             </li>
-            <li class="nav-item m-2">
+            <li class="nav-item">
               <a href="about.html" class="nav-link">About</a>
             </li>
-            <li class="nav-item m-2">
+            <li class="nav-item">
               <a href="blog.html" class="nav-link">Blog</a>
             </li>
-            <li class="nav-item m-2">
+            <li class="nav-item">
               <a href="contact.html" class="nav-link">Contact Us</a>
             </li>
           </ul>
@@ -129,19 +143,29 @@
 
           <ul>
             <li>
-              <a href="#"><h3 class="text-white">Home</h3></a>
+              <a href="#">
+                <h3 class="text-white">Home</h3>
+              </a>
             </li>
             <li>
-              <a href="#"><h3 class="text-white">About Us</h3></a>
+              <a href="#">
+                <h3 class="text-white">About Us</h3>
+              </a>
             </li>
             <li>
-              <a href="#"><h3 class="text-white">Our Services</h3></a>
+              <a href="#">
+                <h3 class="text-white">Our Services</h3>
+              </a>
             </li>
             <li>
-              <a href="#"><h3 class="text-white">Blogs</h3></a>
+              <a href="#">
+                <h3 class="text-white">Blogs</h3>
+              </a>
             </li>
             <li>
-              <a href="#"><h3 class="text-white">Testimonial</h3></a>
+              <a href="#">
+                <h3 class="text-white">Testimonial</h3>
+              </a>
             </li>
           </ul>
           <div class="socials">
