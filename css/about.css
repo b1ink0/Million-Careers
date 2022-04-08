@@ -99,3 +99,22 @@ h6 {
     display: none;
   }
 }
+
+@media (max-width: 576px) {
+  .info-col-1 {
+    display: none !important;
+  }
+  .info-col-2 {
+    height: unset;
+    transform: none;
+  }
+  .img-container-1 img {
+    width: 300px !important;
+  }
+  .about-container p {
+    width: unset;
+  }
+  .cards {
+    width: unset !important;
+  }
+}

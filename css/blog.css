@@ -32,3 +32,9 @@
     display: none;
   }
 }
+
+@media (max-width: 576px) {
+  .sub-section img {
+    width: 300px;
+  }
+}

@@ -95,3 +95,13 @@
     display: none;
   }
 }
+
+@media (max-width: 576px) {
+  .section-1 form {
+    width: 300px;
+  }
+  .sub-form {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
